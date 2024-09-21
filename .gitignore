@@ -1,0 +1,27 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+.env
+env/
+.venv
+
+# Ignore VSCode settings
+.vscode/
+.vscode/*
+
+# Ignore meta_data.docx and quick_notes.docx in all project folders
+*/meta_data.docx
+meta_data.docx
+*/quick_notes.docx
+quick_notes.docx
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Microsoft Word temporary files
+~$*
+*.tmp
+
+# Ignore log files
+*.log
